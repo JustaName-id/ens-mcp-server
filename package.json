@@ -27,6 +27,7 @@
     "cross-env": "^7.0.3",
     "dotenv": "^16.3.1",
     "ethers": "^6.7.1",
+    "viem": "^2.23.9",
     "zod": "^3.22.2"
   },
   "devDependencies": {
