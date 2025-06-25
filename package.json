@@ -11,14 +11,21 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "ens",
+    "mcp",
+    "ethereum",
+    "web3",
+    "identity"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/JustaName-id/ens-mcp-server"
   },
   "scripts": {
-    "build": "tsc && shx chmod +x dist/*.js",
-    "prepare": "npm run build",
-    "watch": "tsc --watch"
+    "build": "tsc && shx chmod +x dist/index.js",
+    "watch": "tsc --watch",
+    "dev:debug": "npx @modelcontextprotocol/inspector node ./dist/index.js"
   },
   "dependencies": {
     "@ensdomains/ensjs": "^4.0.2",
