@@ -1,0 +1,19 @@
+# Smithery configuration file: https://smithery.ai/docs/deployments
+
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      rpcProviderUrl:
+        type: string
+        description: A mainnet RPC Provider
+  commandFunction:
+    |-
+    (config) => {
+      const env = {}
+      if (config.rpcProviderUrl) {
+        env.PROVIDER_URL = config.rpcProviderUrl
+      }
+      return { command: 'node', args: ['dist/index.js'], env }
+    }

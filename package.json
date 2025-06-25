@@ -1,6 +1,6 @@
 {
   "name": "mcp-server-ens",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An MCP server for interacting with the Ethereum Name Service (ENS)",
   "license": "MIT",
   "author": "JustaName",
