@@ -3,6 +3,11 @@
 MCP Server for Ethereum Name Service (ENS), enabling Claude to interact with the ENS system to resolve names, check availability, retrieve records, and more.
 
 npm package: https://www.npmjs.com/package/mcp-server-ens
+
+<a href="https://glama.ai/mcp/servers/@JustaName-id/ens-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@JustaName-id/ens-mcp-server/badge" alt="ENS Server MCP server" />
+</a>
+
 ## Tools
 
 ### resolve-name
