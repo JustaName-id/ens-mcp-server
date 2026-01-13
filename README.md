@@ -126,6 +126,22 @@ Add the following to your `claude_desktop_config.json`:
 }
 ```
 
+## Usage with Claude Code
+
+```bash
+claude mcp add ens -- npx -y mcp-server-ens
+```
+
+With custom providers:
+```bash
+claude mcp add ens -e PROVIDER_URL="https://your-provider-url.com" -- npx -y mcp-server-ens
+```
+
+Verify it's connected:
+```bash
+claude mcp list
+```
+
 ## Error Handling
 
 The server implements robust error handling for various scenarios:
